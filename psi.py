@@ -370,4 +370,34 @@ if query:
                 for _, row in df_scored.iterrows():
                     st.markdown(render_card(row), unsafe_allow_html=True)
 
+
 st.markdown('<div class="footer">PsiSearch Pro v1.0', unsafe_allow_html=True)
+
+st.sidebar.markdown("---") 
+
+st.sidebar.markdown(
+    """
+    <div style='text-align: center;'>
+        <p style='font-style: italic; font-weight: bold;'>
+            I exist, therefore I code. 🍊
+        </p>
+        <p>
+            This tool is free and open-source. If it helped your research or saved you time:
+        </p>
+    </div>
+    <a href="YOUR_KOFI_LINK" target="_blank" style="
+        display: block;
+        padding: 10px;
+        margin: 10px 0;
+        text-align: center;
+        background-color: #ff5e5b; /* Cor Ko-fi/Laranja */
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+    ">
+        ☕ Buy Orange_dp a Coffee
+    </a>
+    """,
+    unsafe_allow_html=True
+)
