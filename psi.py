@@ -385,7 +385,7 @@ st.sidebar.markdown(
             This tool is free and open-source. If it helped your research or saved you time:
         </p>
     </div>
-    <a href="YOUR_KOFI_LINK" target="_blank" style="
+    <a href="https://ko-fi.com/orangeprinc" target="_blank" style="
         display: block;
         padding: 10px;
         margin: 10px 0;
@@ -401,3 +401,4 @@ st.sidebar.markdown(
     """,
     unsafe_allow_html=True
 )
+
